@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Склад</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      #preloader {
+          display: none;
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: rgba(255, 255, 255, 0.8);
+          z-index: 1000;
+          text-align: center;
+          line-height: 100vh;
+          font-size: 2rem;
+          font-weight: bold;
+      }
+    </style>
+</head>
+<body>
+
+    <div id="preloader">Загрузка...</div>
+
+    <div id="warehouse-page">
+        <h1>Список вещей на складе</h1>
+        <button id="add-item-btn">Добавить запись</button>
+        <table>
+            <thead>
+                <tr>
+                    <th data-sort="name">Название</th>
+                    <th data-sort="shelf">Полка</th>
+                    <th data-sort="weight">Вес</th>
+                    <th data-sort="storageTime">Время хранения</th>
+                    <th>Действия</th>
+                </tr>
+            </thead>
+            <tbody id="warehouse-table-body"></tbody>
+        </table>
+    </div>
+
+    <div id="add-item-page" style="display: none;">
+        <h1>Добавить вещь на склад</h1>
+        <form id="add-item-form">
+            <label>Название: <input type="text" id="name" required></label>
+            <label>Полка: <input type="text" id="shelf" required></label>
+            <label>Вес: <input type="number" id="weight" required></label>
+            <label>Время хранения: <input type="text" id="storageTime" required></label>
+            <button type="submit">Добавить</button>
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
