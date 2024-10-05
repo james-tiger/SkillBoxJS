@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bank Card Customizer</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <h1>Bank Card Customizer</h1>
+  
+  <div class="customizer">
+    <label for="cardText">Enter Text for Card:</label>
+    <input type="text" id="cardText" placeholder="Enter text for your card">
+
+    <label for="cardColor">Choose Card Color:</label>
+    <select id="cardColor">
+      <option value="red">Red</option>
+      <option value="blue">Blue</option>
+      <option value="green">Green</option>
+    </select>
+  </div>
+
+  <div id="card" class="bank-card">
+    <p id="cardContent">Your Text Here</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

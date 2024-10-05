@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM and Car Tax Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ATM Transaction</h1>
+        <div class="atm-section">
+            <label for="cardInATM">Is the card in the ATM?</label>
+            <select id="cardInATM">
+                <option value="true">Yes</option>
+                <option value="false">No</option>
+            </select>
+
+            <label for="availableAmount">Available Amount (RUB):</label>
+            <input type="number" id="availableAmount" value="500">
+
+            <label for="transactionAmount">Transaction Amount (RUB):</label>
+            <input type="number" id="transactionAmount">
+
+            <button id="atmButton">Process Transaction</button>
+            <div id="atmResult" class="result"></div>
+        </div>
+
+        <h1>Car Transport Tax Calculator</h1>
+        <div class="tax-section">
+            <label for="vehiclePower">Vehicle Power (hp):</label>
+            <input type="number" id="vehiclePower">
+
+            <button id="taxButton">Calculate Tax</button>
+            <div id="taxResult" class="result"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

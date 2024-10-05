@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .customizer {
+    margin-bottom: 30px;
+  }
+  
+  input, select {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    width: 200px;
+  }
+
+  .bank-card {
+    width: 300px;
+    height: 180px;
+    margin: 0 auto;
+    background-color: #ccc;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+  }
+  
+  #cardContent {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  select {
+    cursor: pointer;
+  }
+
+  input:focus {
+    outline: none;
+    border-color: orange;
+    background-color: #fffbe6;
+  }
+  
