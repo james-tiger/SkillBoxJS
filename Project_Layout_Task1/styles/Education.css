@@ -1,0 +1,251 @@
+.CV {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.CV .education-box {
+  display: flex;
+  flex-direction: column;
+  width: 268px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+  padding: 12px;
+  position: relative;
+  background-color: #f0f0f0;
+  border-radius: 12px;
+}
+
+.CV .content-4 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-right: -4px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.CV .column {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.CV .last-education {
+  width: 116px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #27d879;
+  border-radius: 10px;
+}
+
+.CV .vector {
+  position: relative;
+  width: 11px;
+  height: 9.39px;
+}
+
+.CV .content-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  width: 100%;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.CV .tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0px 2px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  margin-top: -2px;
+}
+
+.CV .tag-4 {
+  position: relative;
+  width: fit-content;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ebf9f1;
+  font-size: 8px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 12px;
+  white-space: nowrap;
+}
+
+.CV .school-name {
+  position: relative;
+  width: fit-content;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 8px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 12px;
+  white-space: nowrap;
+}
+
+.CV .education {
+  display: flex;
+  flex-direction: column;
+  width: 116px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.CV .text-wrapper-8 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 15px;
+  white-space: nowrap;
+}
+
+.CV .vector-2 {
+  position: relative;
+  width: 11px;
+  height: 9.39px;
+  margin-top: -787.19px;
+  margin-left: -484px;
+}
+
+.CV .tag-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #148f63;
+  font-size: 8px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 12px;
+  white-space: nowrap;
+}
+
+.CV .tag-6 {
+  position: relative;
+  width: fit-content;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #148f63;
+  font-size: 8px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 12px;
+  white-space: nowrap;
+}
+
+.CV .school-name-2 {
+  position: relative;
+  width: fit-content;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 8px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 12px;
+  white-space: nowrap;
+}
+
+.CV .like-button {
+  position: relative;
+  width: 11px;
+  height: 9.39px;
+  margin-top: -655.19px;
+  margin-left: -783px;
+}
+
+.CV .extra-box {
+  display: inline-flex;
+  flex-direction: column;
+  height: 289px;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+@media (max-width: 600px) {
+  .CV {
+    padding: 10px;
+  }
+
+  .CV .education-box,
+  .CV .experience-box,
+  .CV .tools-box,
+  .CV .extra-box {
+    width: 100%;
+    padding: 8px;
+    gap: 10px;
+  }
+
+  .CV .column {
+    width: 100%;
+  }
+
+  .CV .content-4,
+  .CV .content-5 {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .CV .name,
+  .CV .role,
+  .CV .school-name,
+  .CV .school-name-2 {
+    font-size: 12px;
+  }
+
+  .CV .text-wrapper-8,
+  .CV .text-wrapper-4,
+  .CV .text-wrapper-5 {
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  .CV .tag-4,
+  .CV .tag-5,
+  .CV .tag-6 {
+    font-size: 6px;
+  }
+
+  .CV .profile-img {
+    width: 80%;
+    height: auto;
+  }
+}

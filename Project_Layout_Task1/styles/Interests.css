@@ -1,0 +1,131 @@
+.CV .interests-box {
+  display: flex;
+  flex-direction: column;
+  width: 267px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+  padding: 12px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #f0f0f0;
+  border-radius: 12px;
+}
+
+.CV .content-6 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 8px 8px;
+  align-self: stretch;
+  width: 100%;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.CV .name-wrapper {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 4px 10px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+  border-radius: 40px;
+}
+
+.CV .name-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 15px;
+  white-space: nowrap;
+}
+
+.CV .input {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 4px 10px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+  border-radius: 40px;
+  border: none;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 15px;
+  white-space: nowrap;
+}
+
+.CV .contact {
+  display: flex;
+  flex-direction: column;
+  width: 267px;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 12px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: #000000;
+  border-radius: 12px;
+}
+
+.CV .title-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.CV .name-title {
+  align-self: stretch;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 21px;
+  position: relative;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  letter-spacing: 0;
+}
+
+.CV .title-3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.CV .name-title-2 {
+  width: fit-content;
+  font-weight: 400;
+  color: #dddddd;
+  font-size: 10px;
+  line-height: 15px;
+  white-space: nowrap;
+  position: relative;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  letter-spacing: 0;
+}

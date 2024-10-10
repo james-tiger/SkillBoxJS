@@ -1,0 +1,190 @@
+
+
+.CV .CV-v {
+  background-color: #ffffff;
+  width: 595px;
+  height: 842px;
+}
+
+.CV .bento-flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  width: 555px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px 20px;
+  position: relative;
+  top: 15px;
+  left: 20px;
+}
+
+.CV .profile-img {
+  position: relative;
+  width: 124px;
+  height: 124px;
+  object-fit: cover;
+}
+
+.CV .name-box {
+  display: flex;
+  flex-direction: column;
+  width: 124px;
+  height: 124px;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 12px;
+  position: relative;
+  background-color: #f0f0f0;
+  border-radius: 12px;
+}
+
+.CV .greeting-phrase {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.CV .your-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 6px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.CV .name {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 14.6px;
+}
+
+.CV .role {
+  position: relative;
+  align-self: stretch;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #5c5c5c;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.CV .lenguages-box {
+  display: flex;
+  flex-direction: column;
+  width: 267px;
+  height: 124px;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 12px;
+  position: relative;
+  background-color: #f0f0f0;
+  border-radius: 12px;
+}
+
+.CV .title {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.CV .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 21px;
+  white-space: nowrap;
+}
+
+.CV .list-lenguages {
+  display: flex;
+  align-items: flex-start;
+  gap: 17px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.CV .name-lenguage {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.CV .div {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 10.4px;
+  white-space: nowrap;
+}
+
+.CV .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 10.4px;
+  white-space: nowrap;
+}
+
+.CV .level-lenguage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.CV .div-2 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 11px;
+  background-color: #28d979;
+  border-radius: 3px;
+}
+
+.CV .english-progress-bar {
+  position: relative;
+  width: 129px;
+  height: 11px;
+  background-color: #28d979;
+  border-radius: 3px;
+}
