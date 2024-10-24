@@ -1,19 +1,23 @@
 function atmTransaction(cardInATM, availableAmount, transactionAmount) {
     if (cardInATM && transactionAmount <= availableAmount) {
-        console.log("Operation in progress");
+        return "Operation in progress";
     } else {
-        console.log("Operation rejected");
+        return "Operation rejected";
     }
 }
 
-const cardInATM = true;
-const availableAmount = 500; 
+document.getElementById("atmButton").addEventListener('click', () => {
+    const cardInATM = document.getElementById("cardInATM").value === "true";
+    const availableAmount = Number(document.getElementById("availableAmount").value);
+    const transactionAmount = Number(document.getElementById("transactionAmount").value);
 
-const inputAmount1 = 1000; 
-atmTransaction(cardInATM, availableAmount, inputAmount1); 
-
-const inputAmount2 = 400; 
-atmTransaction(cardInATM, availableAmount, inputAmount2); 
+    if (!Number.isNaN(availableAmount) && !Number.isNaN(transactionAmount)) {
+        const result = atmTransaction(cardInATM, availableAmount, transactionAmount);
+        document.getElementById("atmResult").textContent = result;
+    } else {
+        document.getElementById("atmResult").textContent = "Please enter valid numbers!";
+    }
+});
 
 function calculateTax(vehiclePower) {
     let taxRate;
@@ -36,13 +40,17 @@ function calculateTax(vehiclePower) {
         taxRate = 150;
     }
 
-    const totalTax = vehiclePower * taxRate;
-
-    console.log(`Tax amount: ${totalTax}`);
+    return vehiclePower * taxRate;
 }
 
-const inputPower1 = 110; 
-calculateTax(inputPower1); 
+document.getElementById("taxButton").addEventListener('click', () => {
+    const vehiclePowerInput = document.getElementById("vehiclePower");
+    const inputPower = Number(vehiclePowerInput.value);
 
-const inputPower2 = 540; 
-calculateTax(inputPower2); 
+    if (!Number.isNaN(inputPower)) {
+        const totalTax = calculateTax(inputPower);
+        document.getElementById("taxResult").textContent = `Tax amount: ${totalTax} RUB`;
+    } else {
+        document.getElementById("taxResult").textContent = "Please enter a valid number!";
+    }
+});
