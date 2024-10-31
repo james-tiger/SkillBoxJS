@@ -1,0 +1,184 @@
+.desktop {
+  display: flex;
+  height: 1024px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  background-color: #6600ff;
+  width: 100%;
+  min-width: 1440px;
+}
+
+.desktop .frame {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  height: 530px;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 20px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.desktop .div {
+  display: flex;
+  height: 44px;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.desktop .div-wrapper {
+  display: flex;
+  width: 276px;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 15px;
+  position: relative;
+  align-self: stretch;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #00000066;
+}
+
+.desktop .text-wrapper {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .img {
+  position: relative;
+  align-self: stretch;
+  width: 44px;
+  cursor: pointer;
+}
+
+.desktop .frame-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.desktop .weather-svgrepo-com {
+  position: relative;
+  width: 220px;
+  height: 220px;
+}
+
+.desktop .text-wrapper-2 {
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 45px;
+  position: relative;
+  width: fit-content;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-3 {
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 25px;
+  position: relative;
+  width: fit-content;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .frame-3 {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  width: 100%;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.desktop .frame-4 {
+  display: flex;
+  flex-direction: column;
+  width: 55px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  align-self: stretch;
+  overflow: hidden;
+}
+
+.desktop .text-wrapper-4 {
+  margin-left: -0.50px;
+  margin-right: -0.50px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  font-size: 15px;
+  position: relative;
+  width: fit-content;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .weather-svgrepo-com-2 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.desktop .frame-5 {
+  display: flex;
+  flex-direction: column;
+  width: 55px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  align-self: stretch;
+}
+
+.desktop .text-wrapper-5 {
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  font-size: 15px;
+  position: relative;
+  width: fit-content;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .weather-svgrepo-com-3 {
+  position: relative;
+  width: 7.5px;
+  height: 40px;
+}
