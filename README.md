@@ -408,7 +408,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **James Tiger**
 - **GitHub**: [@james-tiger](https://github.com/james-tiger)
-- **LinkedIn**: [james-tiger](https://www.linkedin.com/in/mohamed-mostafa-ab38aa317)
+- **LinkedIn**: [Mohamed Ashraf](https://www.linkedin.com/in/mohamed-mostafa-ab38aa317)
 - **Email**: mohamed.ashraf.y.s.m@gmail.com
 
 ## 🌟 Star History
